@@ -94,5 +94,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
+
+/*
+
+        GradeCard testGrades = new GradeCard("Nina");
+        testGrades.setGradeEnglish(50);
+        testGrades.setGradeHistory(90);
+        testGrades.setGradeMaths(20);
+
+        TextView testingTextView = (TextView) findViewById(R.id.test);
+        testingTextView. setText(testGrades.getGradeCard());*/
     }
 }
